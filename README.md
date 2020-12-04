@@ -1,4 +1,4 @@
-# Download Papers With Helium
+# Download Papers With [Helium](https://github.com/mherrmann/selenium-python-helium)
 
 Download PDFs of papers with links, DOIs, or PMIDs:
 1. Download from a file containing links to papers with "-f" option;
