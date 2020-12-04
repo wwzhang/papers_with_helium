@@ -7,7 +7,7 @@ Download PDFs of papers with links, DOIs, or PMIDs:
 4. Download from a link of the paper.
 
 ## Usage
-1. Change the "pdf_loc = " line to the folder you want to use to save the PDF
+1. Change the "pdf_loc = " line of getpdf.py to the folder you want to use to save the PDF
 2. run the program with the correct options chosen 
 ````
   getpdf.py -f the_link_file
