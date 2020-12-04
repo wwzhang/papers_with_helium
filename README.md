@@ -17,7 +17,8 @@ Download PDFs of papers with links, DOIs, or PMIDs:
 ```` 
 
 ## Install and Requirement
-Requires Python3, Firefox, and Helium
+Requires Python3, Firefox, and [Helium](https://github.com/mherrmann/selenium-python-helium)
+
 To install Helium
 ````
   pip install helium
