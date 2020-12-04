@@ -33,7 +33,7 @@ def download_w_firefox():
 	pnas = "pnas.org"
 	brx = "biorxiv.org"
 	oup = "oup.com"
-	aaas = "sciencemag.org"
+	
 	if elife in link:
 	    click(Image(alt="Download icon"))
 	    click(Link('Article PDF'))
@@ -45,10 +45,10 @@ def download_w_firefox():
 	    click('Download PDF')
 	    if Text('Download this article').exists(): 
 	    	click('Download this article')
-	elif cell in link or pnas in link or oup in link or aaas in link:
+	elif cell in link or pnas in link or oup in link:
 	    click('PDF')
 	    if Text('Standard PDF').exists(): click('Standard PDF')
-	    elif Text('Download PDF').exists(): click('Download PDF')
+	   
 	    
 	#start check download finish 15s later
 	time.sleep(5)
