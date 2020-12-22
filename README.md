@@ -16,7 +16,7 @@ This is a Python3 based-program which runs a headless Firefox to download. It is
   getpdf.py -p the_PMID_file
   getpdf.py the_link
 ```` 
-3. Take a look at line 28 - 35 of getpdf.py to get which websites this support and modify it to your needs. In doing so, it might help to change the headless option to False.
+3. Take a look at line 34 - 41 of getpdf.py to get which websites this support and modify it to your needs. In doing so, it might help to change the headless option to False.
 
 ## Install and Requirement
 Requires Python3, Firefox, and [Helium](https://github.com/mherrmann/selenium-python-helium)
